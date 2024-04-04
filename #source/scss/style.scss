@@ -35,16 +35,11 @@ body{
 		}
 
 		&__logo {
-                  display: block;
-font-size: 25px;
-font-weight: 900;
-line-height: 30.48px;
-color: rgba(0, 0, 0, 1);
-width: 238px;
-margin: 0 147.58px 0 0;
-
                  
-
+                  img{
+                        max-width: 100%;
+                        height: auto;
+                  }
 		}
 
 		&__list {
@@ -95,6 +90,13 @@ margin: 0 147.58px 0 0;
                   margin: 0 0 29px 0;
 
 		}
+            &__title2{
+                  font-size: calc();
+                  font-weight: 800;
+                  line-height: 39.01px;
+                  text-align: left;
+                  margin: 0 0 29px 0;
+            }
 
 		&__texting {
                   font-size: 16px;
@@ -126,3 +128,6 @@ margin: 0 147.58px 0 0;
                   height: auto;
 		}
 }
+.content{
+      flex: 1 1 auto;
+  }
