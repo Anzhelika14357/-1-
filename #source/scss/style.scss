@@ -1,8 +1,128 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import "nullstyle.scss";
-.header{
-      &__logo{
-            width: 300px;
-            right: 300px;
-      }
+body{
+      font-family: "Montserrat";
+}
+.wrapper {
+      min-height: 100%;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+}
+.container {
+      max-width: 1110px;
+      margin: 0px auto;
+}
+.header {
+      width: 100%;
+      z-index: 100;
+      top: 0;
+      left: 0;
+      background: linear-gradient(180deg, #EDA418 47.4%, rgba(237, 164, 24, 0) 100%);
+      
+		&__body {
+                
+                  margin:105px 0 0 0;
+                  
+            
+		}
+
+		&__menu {
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  
+		}
+
+		&__logo {
+                  display: block;
+font-size: 25px;
+font-weight: 900;
+line-height: 30.48px;
+color: rgba(0, 0, 0, 1);
+width: 238px;
+margin: 0 147.58px 0 0;
+
+                 
+
+		}
+
+		&__list {
+                  width: 100%;
+                 
+		}
+
+		&__items {
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  width: 100%;
+                  font-size: 25px;
+                  line-height: 30.48px;
+                  :first-child{
+                        font-weight: 700;
+                  }
+		}
+
+		&__item {
+                  cursor: pointer;
+		}
+
+		&__basket {
+                  margin: 0 0 0 48.5px;
+                  img{
+                        max-width: 100%;
+                        height: auto;
+                  }
+		}
+
+		&__bord {
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+		}
+
+		&__text {
+
+
+		}
+
+		&__title {
+                  font-size: 32px;
+                  font-weight: 800;
+                  line-height: 39.01px;
+                  text-align: left;
+                  margin: 0 0 29px 0;
+
+		}
+
+		&__texting {
+                  font-size: 16px;
+                  font-weight: 400;
+                  line-height: 19.5px;
+                  text-align: left;
+                  margin: 0 0 29px 0;
+
+		}
+
+		&__button {
+
+                  button{
+                        border-radius: 50px;
+                        background: rgba(229, 38, 38, 1);
+                  font-size: 24px;
+                  font-weight: 400;
+                  line-height: 29.26px;
+                  color: rgba(255, 255, 255, 1);
+                  padding: 14px 18px;
+
+                  }
+                  
+
+		}
+
+		&__burger img{
+                  max-width: 100%;
+                  height: auto;
+		}
 }

@@ -67,7 +67,123 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
+body {
+  font-family: "Montserrat";
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0px auto;
+}
+
+.header {
+  width: 100%;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(47.4%, #EDA418), to(rgba(237, 164, 24, 0)));
+  background: linear-gradient(180deg, #EDA418 47.4%, rgba(237, 164, 24, 0) 100%);
+}
+.header__body {
+  margin: 105px 0 0 0;
+}
+.header__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 .header__logo {
-  width: 300px;
-  right: 300px;
+  display: block;
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 30.48px;
+  color: rgb(0, 0, 0);
+  width: 238px;
+  margin: 0 147.58px 0 0;
+}
+.header__list {
+  width: 100%;
+}
+.header__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  font-size: 25px;
+  line-height: 30.48px;
+}
+.header__items :first-child {
+  font-weight: 700;
+}
+.header__item {
+  cursor: pointer;
+}
+.header__basket {
+  margin: 0 0 0 48.5px;
+}
+.header__basket img {
+  max-width: 100%;
+  height: auto;
+}
+.header__bord {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header__title {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 39.01px;
+  text-align: left;
+  margin: 0 0 29px 0;
+}
+.header__texting {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+  text-align: left;
+  margin: 0 0 29px 0;
+}
+.header__button button {
+  border-radius: 50px;
+  background: rgb(229, 38, 38);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.26px;
+  color: rgb(255, 255, 255);
+  padding: 14px 18px;
+}
+.header__burger img {
+  max-width: 100%;
+  height: auto;
 }
